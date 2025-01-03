@@ -1,0 +1,70 @@
+/*
+colors{
+    #0B0B0D: black;
+    #181619: dark grey;
+    #181B22: grey;
+    #272A31: light grey;
+    #2f4858: dark blue;
+    #A76B09: orange;
+    #DDA74F: light orange;
+    #DFE0DF: white-silver;
+    #FFF8EA: cream;
+    #FFF8EE: ivory;
+    #FFFFFF: hard white;
+
+    #EEB86F: light orange hover;
+}
+*/
+
+body {
+	background: #181B22;
+	font-family: "Montserrat", sans-serif;
+	color: #FFF8EE;
+}
+
+div {
+	background: #272A31;
+	color: #FFF8EE;
+	display: flex;
+}
+
+#main_container {
+	background: #181B22;
+}
+
+#hubble_logo {
+	height: 7rem;
+	width: 7rem;
+}
+
+.spanning_div {
+	width: 100%;
+	background: #272A31;
+}
+
+#title_container {
+	height: 10rem;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo_div {
+	margin-left: 5rem;
+	align-items: flex-end;
+}
+
+#hubble_title {
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin-left: 0.5vw;
+}
+
+#hamburger_button_div {
+	margin-right: 5rem;
+}
+
+#hamburger {
+	height: 2rem;
+	width: 2rem;
+}
