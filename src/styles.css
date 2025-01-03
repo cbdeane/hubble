@@ -23,13 +23,14 @@ body {
 }
 
 div {
-	background: #272A31;
 	color: #FFF8EE;
 	display: flex;
 }
 
 #main_container {
 	background: #181B22;
+	flex-direction: column;
+	align-items: center;
 }
 
 #hubble_logo {
@@ -80,4 +81,21 @@ div {
 #hamburger {
 	height: 2rem;
 	width: 2rem;
+}
+
+#body_container {
+	width: 800px;
+}
+
+#prospect_profile {
+	width: 100%;
+	justify-content: space-between;
+}
+
+#prospect_information {
+	flex-direction: column;
+}
+
+#company_information {
+	flex-direction: column;
 }
